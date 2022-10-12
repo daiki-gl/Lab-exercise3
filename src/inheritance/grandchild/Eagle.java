@@ -11,13 +11,10 @@ public class Eagle extends Birds {
         super(height, weight, animalType, bloodType, feature, fly);
     }
 
-    // @Override
-    // public String toString() {
-    //     return "Eagle \n" + "height:" + getHeight() + ", weight:" + getWeight() + ", animalType:" + getAnimalType()
-    //             + ", bloodType:" + getBloodType()
-    //             + "\n"
-    //             + "feature:" + getFeature() + ", fly:" + getFly();
-    // }
+    @Override
+    public String toString() {
+        return showInfo();
+    }
 
     public String showInfo() {
         return "Eagle \n" + "height:" + getHeight() + ", weight:" + getWeight() + ", animalType:" + getAnimalType()

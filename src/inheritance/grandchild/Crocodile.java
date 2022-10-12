@@ -14,14 +14,10 @@ public class Crocodile extends Reptile {
         super(height, weight, animalType, bloodType, skinType, bone, eggType);
     }
 
-    // @Override
-    // public String toString() {
-    //     return "Crocodile" + "\n" + "skinType:" + getSkinType() + ", bone:" + getBone() + ", eggType:" + getEggType()
-    //             + "\n"
-    //             + "height:" + getHeight() + ", weight:" + getWeight()
-    //             + "\n"
-    //             + "animalType:" + getAnimalType() + ", bloodType:" + getBloodType();
-    // }
+    @Override
+    public String toString() {
+        return showInfo();
+    }
 
     public String showInfo() {
         return "Crocodile" + "\n" + "skinType:" + getSkinType() + ", bone:" + getBone() + ", eggType:" + getEggType()

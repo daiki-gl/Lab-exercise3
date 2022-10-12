@@ -15,13 +15,10 @@ public class Eal extends Fish {
         this.feature = feature;
     }
 
-    // @Override
-    // public String toString() {
-    //     return "Eal \n" + "height:" + getHeight() + ", weight:" + getWeight() + ", animalType:" + getAnimalType()
-    //             + ", bloodType:" + getBloodType()
-    //             + "\n"
-    //             + "habitat:" + getHabitat() + ", gills:" + getGills() + ", feature:" + feature;
-    // }
+    @Override
+    public String toString() {
+        return showInfo();
+    }
 
     public String showInfo() {
         return "Eal \n" + "height:" + getHeight() + ", weight:" + getWeight() + ", animalType:" + getAnimalType()

@@ -28,7 +28,7 @@ public class Main {
         */
         Eagle eagle = new Eagle(80, 55, "Bird", "A","With feather", "Can fly");
         System.out.println("----------------------");
-        System.out.println(eagle.showInfo());
+        System.out.println(eagle);
 
     }
 }
